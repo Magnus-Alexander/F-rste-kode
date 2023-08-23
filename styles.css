@@ -68,6 +68,7 @@ div {
     border: 3px solid rgb(107, 3, 38);
     border-radius: 30px;
     border-width: 20px;
+    padding: 10px;
 }
 p{
     color:rgb(42, 131, 233);
