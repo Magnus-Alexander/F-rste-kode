@@ -1,7 +1,7 @@
 * {
     box-sizing: border-box;
     margin: 0;
-    margin-inline: 50px
+    margin-inline: 50px;
 }
 h1{
     color:rgb(94, 236, 255);
@@ -16,9 +16,6 @@ body{
     text-align: left;
 }
 
-ul{
-    padding-left: 100px;
-}
 .endtext {
     color: rgb(255, 255, 255);
     font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif ;
@@ -30,47 +27,53 @@ ul{
     text-align: center;
     background-color:rgb(158, 158, 158);
     border: 3px solid rgb(0, 225, 255);
-    border-width: 20px;
+    border-width: 10px;
     border-radius: 30px;
     margin: 10px;
-    padding: 10px;
+    padding: 5px;
+    max-width: 400px;
 }
 .item2 {
-    color:rgb(98, 18, 173);
+    color:rgb(190, 123, 253);
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif ;
     text-align: center;
     background-color:rgb(92, 92, 92);
     border: 3px solid rgb(255, 69, 246);
-    border-width: 20px;
+    border-width: 10px;
     border-radius: 30px;
     font-size: larger;
     margin: 10px;
-    padding: 20px;
+    padding: 5px;
     font-size: larger;
+    max-width: 400px;
 }
 .item3 {
     color:rgb(28, 0, 54);
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif, Arial, sans-serif ;
     text-align: center;
-    background-color:rgba(61, 61, 61, 0.712);
+    background-color:rgb(61, 61, 61);
     border: 3px solid rgb(202, 14, 77);
     border-radius: 30px;
-    border-width: 20px;
+    border-width: 10px;
     font-size: larger;
     margin: 10px;
-    padding: 10px;
+    padding: 5px;
+    max-width: 400px;
 }
 div {
     box-sizing: border-box;
     margin: 5px;
     color:rgb(5, 117, 151);
-    background-color:rgba(0, 0, 0, 0.411);
+    background-color:rgb(0, 0, 0);
     border: 3px solid rgb(107, 3, 38);
     border-radius: 30px;
-    border-width: 20px;
-    padding: 10px;
+    border-width: 10px;
+    padding: 50px;
+    max-width: 500px;
+    display:flex;
+    justify-content: center;
+    align-self: center;
 }
 p{
     color:rgb(42, 131, 233);
-    text-align: center;
 }
